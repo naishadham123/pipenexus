@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.anil.nexusdemo2</groupId>
-  <artifactId>mynexus2</artifactId>
+  <groupId>com.anil.dummynexus</groupId>
+  <artifactId>dummynexus</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
     <dependency>
@@ -15,12 +15,12 @@
 
 		<repository>
 			<id>1234</id>
-			<url>http://192.168.33.1:8081/nexus/content/repositories/tere/</url>
+			<url>http://192.168.33.1:8081/nexus/content/repositories/dummyrepo/</url>
 			
 		</repository>
 		<snapshotRepository>
 			<id>1234</id>
-			<url>http://192.168.33.1:8081/nexus/content/repositories/te/</url>
+			<url>http://192.168.33.1:8081/nexus/content/repositories/dummysnap/</url>
 			
 		</snapshotRepository>		
   </distributionManagement>
